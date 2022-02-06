@@ -1,0 +1,11 @@
+n,m = list(map(int, input().split()))
+arr = list(map(int, input().split()))
+x = set(arr)
+A = set(map(int, input().split()))
+B = set(map(int, input().split()))
+a = x.intersection(A)
+lenA = len(a)
+b = x.intersection(B)
+lenB = len(b)
+happiness = lenA - lenB
+print(happiness)

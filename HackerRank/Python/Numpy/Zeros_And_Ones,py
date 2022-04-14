@@ -1,0 +1,4 @@
+import numpy as np
+x = tuple(map(int, input().split()))
+print (np.zeros(x, dtype = np.int))
+print (np.ones(x, dtype = np.int))

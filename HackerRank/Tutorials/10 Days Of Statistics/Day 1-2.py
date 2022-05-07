@@ -15,8 +15,6 @@ import statistics as st
 #
 
 def interQuartile(values, freqs):
-    # Print your answer to 1 decimal place within this function
-    
     new = []
     for i in range(len(values)):
         for j in range(freqs[i]):
